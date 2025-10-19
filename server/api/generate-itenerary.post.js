@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-const genAI = new GoogleGenerativeAI(process.env.MY_GEMINI_API_KEY_VARIABLE)
+const genAI = new GoogleGenerativeAI('AIzaSyAoVKRjf0vyAQuBcxSl8-QumSuB7izvES8')
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
