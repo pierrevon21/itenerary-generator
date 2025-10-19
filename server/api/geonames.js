@@ -1,4 +1,3 @@
- 
 export default defineEventHandler(async (event) => {
   const { q } = getQuery(event)
   const username = 'pierrevon23'
